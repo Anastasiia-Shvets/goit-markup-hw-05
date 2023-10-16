@@ -555,9 +555,7 @@ width: 264px;
 
 }
 
-.footer-soc{
-    margin-right: 80px;
-}
+.footer-soc {}
 
 .footer-soc-text{
     display: flex;
@@ -608,9 +606,6 @@ width: 264px;
 .email {}
 
 .email-text {
-    display: flex;
-    align-items: baseline;
-    gap: 16px;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
@@ -620,51 +615,41 @@ width: 264px;
 }
 
 .email-form {
-    width: 264px;
-    height: 40px;
-    color: #2E2F42;
-    padding-bottom: 16px;
     display: flex;
     align-items: baseline;
-    border-radius: 4px;
-    border: 1px solid #FFF;
-}
-
-.email-label {
-    border: #2E2F42;
 }
 
 .email-sub {
-    display: flex;
-    align-items: baseline;
-    width: 254px;
+    color: #FFF;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    width: 264px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: #2E2F42;
+}
+
+.email-sub::placeholder {
+    color: #FFF;
 }
 
 .email-btn {
     display: flex;
     align-items: baseline;
-    width: 165px;
-    height: 40px;
 }
 
 .email-btn-two {
     color: #FFF;
     background-color: #4D5AE5;
-    text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     padding: 8px 24px;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
     gap: 16px;
     border-radius: 4px;
-    max-width: 165px;
 }
 
 .email-icon {}
