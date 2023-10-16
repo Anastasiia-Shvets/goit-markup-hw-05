@@ -617,42 +617,49 @@ width: 264px;
 .email-form {
     display: flex;
     align-items: baseline;
+    gap: 24px;
 }
 
 .email-sub {
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     padding-left: 16px;
     width: 264px;
     height: 40px;
     border-radius: 4px;
-    border: 1px solid #FFF;
-    background-color: #2E2F42;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .email-sub::placeholder {
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 .email-btn {
+    min-width: 165px;
+    height: 40px;
     display: flex;
-    align-items: baseline;
-}
-
-.email-btn-two {
-    color: #FFF;
-    background-color: #4D5AE5;
+    justify-content: center;
+    align-items: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     padding: 8px 24px;
-    display: inline-flex;
-    gap: 16px;
+    color:#FFFFFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
     border-radius: 4px;
 }
 
-.email-icon {}
+.email-icon {
+    margin-left: 16px;
+}
 
 /**==========================================*/
 
