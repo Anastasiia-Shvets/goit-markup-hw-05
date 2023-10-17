@@ -703,8 +703,8 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn-icon:hover,
-.modal-btn-icon:focus {
+.modal-btn:hover .modal-btn-icon,
+.modal-btn:focus .modal-btn-icon {
     fill: #ffffff;
 }
 
@@ -721,7 +721,7 @@ img {
 .modal-torm {}
 
 .modal-field {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     position: relative;
 }
 
@@ -828,9 +828,8 @@ img {
     justify-content: center;
 }
 
-.modal-btn-two {}
-
 .submit-btn {
+    display: block;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -844,7 +843,6 @@ img {
     height: 56px;
     border: none;
     margin: 24px;
-    display: block;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
